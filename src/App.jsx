@@ -12,7 +12,7 @@ function App() {
     <main className={`main ${theme}`}>
       <Theme />
       <Nav />
-      <section className="main__infomation">
+      <section className="main__information">
         <Title description={"A web developer in the making"} />
       </section>
       <section className="container">

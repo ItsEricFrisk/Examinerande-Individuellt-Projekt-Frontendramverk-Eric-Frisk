@@ -5,7 +5,7 @@
   @include flex-column;
   font-size: 1.3rem;
   max-width: 700px;
-  height: 500px;
+  height: 400px;
   letter-spacing: 1.5px;
 
   &__title {
@@ -21,10 +21,10 @@
     color: $primary-color;
     text-align: center;
     @include router-container;
-    min-width: 550px;
+    min-width: 500px;
     height: auto;
-    padding: 20px;
-    margin: 20px 0;
+    padding: 10px;
+    margin: 10px 0;
   }
 
   &__repo-name:hover {
