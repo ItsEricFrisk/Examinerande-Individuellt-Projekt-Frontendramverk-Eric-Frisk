@@ -1,0 +1,35 @@
+@import "/src/scss/variables";
+@import "/src/scss/mixins";
+
+.projects {
+  @include flex-column;
+  font-size: 1.3rem;
+  max-width: 700px;
+  height: 500px;
+  letter-spacing: 1.5px;
+
+  &__title {
+    font-size: 2rem;
+    color: $secondary-color;
+  }
+
+  &__repo-url {
+    text-decoration: none;
+  }
+
+  &__repo-name {
+    color: $primary-color;
+    text-align: center;
+    @include router-container;
+    min-width: 550px;
+    height: auto;
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  &__repo-name:hover {
+    background-color: $hover-color;
+    color: $white;
+    transition: 0.3s;
+  }
+}

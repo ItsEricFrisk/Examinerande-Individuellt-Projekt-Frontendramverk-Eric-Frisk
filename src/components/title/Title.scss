@@ -1,0 +1,23 @@
+@import "/src/scss/variables";
+
+.title {
+  color: $primary-color;
+
+  &__title-text {
+    font-size: 4rem;
+    font-weight: 700;
+
+    text-decoration: none;
+    color: $primary-color;
+  }
+
+  &__description {
+    font-size: 2rem;
+  }
+
+  &__underline {
+    width: 440px;
+    height: 3px;
+    background-color: $secondary-color;
+  }
+}

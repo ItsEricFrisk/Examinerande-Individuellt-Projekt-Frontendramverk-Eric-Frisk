@@ -1,0 +1,28 @@
+// Adding style for the router container
+@mixin router-container {
+  background-color: $white;
+  color: $primary-color;
+  border: 3px solid $primary-color;
+  border-radius: 12px;
+  box-shadow: 5px 3px 3px 5px #0051ff40;
+  height: auto;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
