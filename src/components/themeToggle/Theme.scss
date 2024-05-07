@@ -1,7 +1,10 @@
 @import "/src/scss/mixins";
 @import "/src/scss/variables";
 
+// Theme toggle button
 .theme-toggle {
+  display: inline-block;
+
   position: absolute;
   top: 85%;
   left: 3%;
@@ -23,6 +26,7 @@
   transition: 0.3s;
 }
 
+// Hover effect
 .theme-toggle:hover {
   transform: translateY(15px);
   box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);

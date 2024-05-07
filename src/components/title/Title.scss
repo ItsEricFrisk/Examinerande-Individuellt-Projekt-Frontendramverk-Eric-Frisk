@@ -1,5 +1,6 @@
 @import "/src/scss/variables";
 
+// Title component
 .title {
   color: $primary-color;
 
@@ -22,6 +23,7 @@
   }
 }
 
+// Media queries
 @media screen and (max-width: 768px) {
   .title {
     margin: 10px 0;

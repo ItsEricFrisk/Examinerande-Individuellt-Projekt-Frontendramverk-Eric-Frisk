@@ -1,11 +1,12 @@
 @import "/src/scss/variables";
 
+// set the margin and padding to 0 and box-sizing to border-box for the whole page
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
-  //Sätter font till Arial, Helvetica och sans-serif för hela sidan
+  //Font family for the whole page
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,8 +16,8 @@
   transition: 0.3s;
 }
 
+// Outlet container
 .container {
-  max-width: 1500px;
   position: absolute;
   top: 50%;
   left: 50%;

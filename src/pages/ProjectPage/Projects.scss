@@ -2,11 +2,13 @@
 @import "/src/scss/mixins";
 
 .projects {
+  @include router-container;
   @include flex-column;
   font-size: 1.3rem;
   max-width: 700px;
-  height: 400px;
+  min-height: 500px;
   letter-spacing: 1.5px;
+  padding: 20px;
 
   &__title {
     font-size: 2rem;
@@ -21,7 +23,7 @@
     color: $primary-color;
     text-align: center;
     @include router-container;
-    min-width: 320px;
+    width: 600px;
     height: auto;
     padding: 10px;
     margin: 10px 0;
@@ -34,18 +36,23 @@
   }
 }
 
+// Media queries
 @media screen and (max-width: 600px) {
   .projects {
+    margin-top: 40px;
     background-color: $white;
     @include router-container;
     max-height: 400px;
-    padding: 10px;
     overflow-y: scroll;
     overflow-x: hidden;
 
     &__title {
       font-size: 1.7rem;
-      margin-top: 200px;
+      margin-top: 100px;
+    }
+
+    &__repo-name {
+      max-width: 330px;
     }
   }
 }

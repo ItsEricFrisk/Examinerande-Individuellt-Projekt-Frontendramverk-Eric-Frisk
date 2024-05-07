@@ -8,18 +8,21 @@
   height: auto;
 }
 
+// Flexbox mixins
 @mixin flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+// Flexbox mixins
 @mixin flex-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+//
 @mixin flex-column {
   display: flex;
   flex-direction: column;
