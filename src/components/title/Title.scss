@@ -21,3 +21,37 @@
     background-color: $secondary-color;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    margin: 10px 0;
+    &__title-text {
+      font-size: 3rem;
+    }
+
+    &__description {
+      font-size: 1.5rem;
+    }
+
+    &__underline {
+      width: 330px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    &__title-text {
+      font-size: 2rem;
+    }
+
+    &__description {
+      font-size: 1em;
+      display: none;
+    }
+
+    &__underline {
+      width: 150px;
+    }
+  }
+}

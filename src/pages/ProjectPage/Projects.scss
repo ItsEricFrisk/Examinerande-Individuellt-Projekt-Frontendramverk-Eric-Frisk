@@ -21,7 +21,7 @@
     color: $primary-color;
     text-align: center;
     @include router-container;
-    min-width: 500px;
+    min-width: 320px;
     height: auto;
     padding: 10px;
     margin: 10px 0;
@@ -31,5 +31,21 @@
     background-color: $hover-color;
     color: $white;
     transition: 0.3s;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
+    background-color: $white;
+    @include router-container;
+    max-height: 400px;
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    &__title {
+      font-size: 1.7rem;
+      margin-top: 200px;
+    }
   }
 }

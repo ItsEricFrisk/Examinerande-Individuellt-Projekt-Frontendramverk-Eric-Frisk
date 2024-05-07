@@ -1,7 +1,7 @@
 import { SET_THEME } from "../actions/actions";
 
 const initialState = {
-  theme: "background-image",
+  theme: "secondary-image",
 };
 
 const themeReducer = (state = initialState, action) => {

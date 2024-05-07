@@ -12,3 +12,11 @@
 .paragraph-margin {
   margin: 20px 0;
 }
+
+@media screen and (max-width: 1200px) {
+  .about {
+    max-height: 400px;
+    min-width: 300px;
+    overflow-y: scroll;
+  }
+}
