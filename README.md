@@ -6,7 +6,7 @@ Uppgift:
 
 Följ dessa steg för att köra projektet:
 1. Klona git-repot:
-   -Öppna terminalen och kör kommandot `git clone <repo-url>` för att klona repot till din dator.
+   - Öppna terminalen och kör kommandot `git clone <repo-url>` för att klona repot till din dator.
 2. Navigera till projektmappen:
    - Använd kommandot `cd <projektmapp>` för att gå till den katalog där din React-app finns.
 3. Installera beroenden:
