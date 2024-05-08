@@ -12,7 +12,7 @@ Följ dessa steg för att köra projektet:
 3. Installera beroenden:
    - Kör kommandot `npm install` för att installera alla projektets beroenden.
 4. Starta utvecklingsservern:
-   -Skriv `npm start` och tryck Enter för att starta den inbyggda utvecklingsservern.
+   - Skriv `npm start` och tryck Enter för att starta den inbyggda utvecklingsservern.
 5. Öppna webbläsaren och gå till `http://localhost:3000`.
 
 ## Beskrinvning av funktionerna:
