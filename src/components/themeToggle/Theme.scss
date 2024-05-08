@@ -10,8 +10,7 @@
   left: 3%;
 
   background-color: $secondary-color;
-  box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.6),
-    inset 0 0 10px 0px rgba(99, 1, 1, 0.6);
+  box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.6);
 
   color: $white;
   border: none;
@@ -29,5 +28,6 @@
 // Hover effect
 .theme-toggle:hover {
   transform: translateY(15px);
-  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6),
+    inset 0 0 10px 0px rgba(99, 1, 1, 0.6);
 }

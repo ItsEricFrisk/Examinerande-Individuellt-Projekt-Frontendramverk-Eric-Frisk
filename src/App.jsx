@@ -6,6 +6,7 @@ import Theme from "./components/themeToggle/Theme";
 import { useSelector } from "react-redux";
 
 function App() {
+  // Get the theme from the redux store
   const theme = useSelector((state) => state.theme);
 
   return (

@@ -15,6 +15,7 @@ import Contact from "./pages/ContactPage/Contact.jsx";
 import About from "./pages/AboutPage/About.jsx";
 import Projects from "./pages/ProjectPage/Projects.jsx";
 
+// Create the router
 const router = createBrowserRouter([
   {
     path: "/",
