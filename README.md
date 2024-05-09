@@ -19,8 +19,11 @@ Följ dessa steg för att köra projektet:
 
 ### React Router
 Jag har använt mig utav **React Router** för att skapa 3 olika sektioner:
-**About**: Här får du en snabb översikt över vem jag är. (Denna text har genererats av en AI.)
+
+**About**: Här får du en snabb översikt över vem jag är.
+
 **PROJECTS**:  Utforska mina GitHub-repositorier i denna sektion.
+
 **CONTACT**: En enkel sektion med en knapp för att öppna ditt e-postprogram på datorn.
 
 ### Redux
