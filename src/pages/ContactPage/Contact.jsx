@@ -8,6 +8,7 @@ export default function Contact() {
 
   return (
     <section className="contact">
+      <p className="contact__text">Do you want to get in touch with me?</p>
       <button className="contact__mail-btn" onClick={sendEmail}>
         Contact me
       </button>

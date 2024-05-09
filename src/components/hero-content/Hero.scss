@@ -1,0 +1,28 @@
+@import "/src/scss/variables";
+@import "/src/scss/mixins";
+
+.hero {
+  @include router-container;
+  @include flex-column;
+  max-width: 300px;
+  height: 200px;
+  padding: 50px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+
+// Media query for tablets and smaller devices
+@media screen and (min-width: 768px) {
+  .hero {
+    max-height: 200px;
+    padding: 50px 100px;
+  }
+}

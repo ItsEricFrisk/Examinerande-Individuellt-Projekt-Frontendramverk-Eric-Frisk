@@ -3,9 +3,16 @@
 
 .contact {
   @include router-container;
-  @include flex-center;
-  width: 300px;
+  @include flex-column;
+  width: 330px;
   height: 200px;
+  padding: 20px;
+
+  &__text {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
 
   &__mail-btn {
     width: 50%;

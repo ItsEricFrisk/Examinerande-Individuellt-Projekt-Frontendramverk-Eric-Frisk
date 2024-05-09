@@ -7,11 +7,10 @@
   height: auto;
   padding: 20px;
   letter-spacing: 1.5px;
-}
 
-// Margin on the middle <p> tag
-.paragraph-margin {
-  margin: 20px 0;
+  &__title {
+    margin: 10px 0;
+  }
 }
 
 // Media queries
