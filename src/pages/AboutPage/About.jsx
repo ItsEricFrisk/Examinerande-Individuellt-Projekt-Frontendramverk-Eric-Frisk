@@ -13,7 +13,7 @@ export default function About() {
           hold until recently when I resumed my studies. Now, programming and
           problem-solving occupy most of my thoughts, and I endeavor to learn
           something new every day. Presently, I am particularly focused on
-          improving my design skills
+          improving my design skills.
         </p>
       </section>
     </>
